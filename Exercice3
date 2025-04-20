@@ -1,0 +1,39 @@
+>1) Donne une ligne de commande bash qui permet de lister la liste des utilisateurs d'un système Linux
+- cat /etc/passwd
+
+>2) Quelle commande bash permet de changer les droits du fichier myfile en rwxr—r-- ?
+- sudo chmod 744 myfile
+
+>3) Comment faire pour que les fichiers pdf d'un dépôt local git ne soient pas pris en compte lors d'un git push ?
+- gitignore *.pdf
+
+>4) Quelles commandes git utiliser pour fusionner les branches main et test_valide ?
+- git checkout main Si nous ne sommes pas sur la branche
+- git merge test_valide
+
+>5) Donne la(les) ligne(s) de commande(s) bash pour afficher le texte suivant :
+- echo "Malgré le prix élevé de 100$, il a dit "Bonjour !" au vendeur :"
+- echo "- "Bonjour est-ce que ce clavier fonctionne bien ?"
+- echo "Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\ !"
+- echo "Même des tildes ~ ?"
+- echo "Evidemment !"
+
+>6) Quelle commande te permet de mettre en avant le processus gedit ?
+- fg 1%
+
+>7) Quels matériels réseaux sont sur la couche 2 et la couche 3 du modèle OSI ? Donne leurs spécificités.
+- <ins>Couche2:</ins> switch et pont => Permet de relier, connecter les différentes machines.
+- <ins>Couche3:</ins> Le routeur => Permet de relier différents switch, de connecter et voir différentes machines entre elles sur des réseaux différents.
+
+>8) Quels sont les équivalent PowerShell des commandes bash cd, cp, mkdir, ls.
+- cd = Get-Location
+- cp = Copy-Item
+- mkdir = New-Item -ItemType
+- ls = Get-ChildItem
+
+>9) Dans la trame ethernet, qu'est-ce que le payload ?
+- C'est la charge utile. Il contient les données réelles transmises
+
+>10) Pourquoi les classes IP sont remplacées par le CIDR ?
+- Pour prévenir d'une pénurie d'adresse IP
+A REVOIR.
